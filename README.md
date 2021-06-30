@@ -18,7 +18,7 @@ Javascript allows you to make your web pages interactive while HTML and CSS are 
 
 Direct link to this Github project:
 
-[tin_dog_webpage](https://wemiibidun.github.io/tin_dog_project/)
+[ledaloh_calculation_webpage](https://wemiibidun.github.io/ledaloh_calculation_page/)
 
 
 **Feedback**
