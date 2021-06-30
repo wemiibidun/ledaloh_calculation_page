@@ -1,0 +1,88 @@
+body {
+    background-image: url("./img/background.jpg");
+    background-size: cover;
+    font-family: "Montserrat", serif;
+    margin: 0;
+    padding: 0; 
+    
+  }
+
+
+h1 {
+  color: #ECDBBA;
+}
+
+.box{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info{
+  font-family: 'Black Han Sans';
+  /* color: #053742; */
+  color: #D5ECC2;
+  font-weight: bold;
+}
+
+
+.instructions, .lotto-text{
+  font-style: italic;
+  font-weight: bold;
+}
+
+ul.instructions{
+  list-style-type: square;
+}
+
+
+/* input text box 1, 2 and 4*/
+.text-box1,.text-box2,.text-box4a,.text-box4b {
+  height: 40px;
+  border: 2px solid #243c4f;
+  width: 50%;
+}
+
+.text-box1, .text-box2, .text-box4a,.text-box4b:focus{
+  height: 40px;
+  box-shadow: none;
+  border: 2px solid #243c4f;
+}
+
+.title{
+  background-color: #008891;
+}
+
+/* buttons 1-4 */
+.button1, .button2,.button4a, .button4b {
+  height: 40px;
+  font-weight: 600;
+  color: white;
+  background-color: #243c4f;
+  box-shadow: none;
+  width: 80px;
+}
+
+/* button 3*/
+.button3{
+  height: 40px;
+  font-weight: 600;
+  color: white;
+  background-color: #243c4f;
+  box-shadow: none;
+  width: 100px;
+}
+
+/* Navigation Bar Styling */
+.navbar{
+  font-family: "Righteous", serif;
+}
+.nav-link{
+    border: 2px solid transparent;
+}
+
+.nav-link:hover{
+   text-decoration: none;
+   border-bottom: 2px solid #ffddcc;
+   transition: 0.5s ease;
+}
+

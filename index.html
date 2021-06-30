@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Website</title> <!--title of my webiste -->
+
+    <!--boostrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Bootstrap's JavaScript Files -->
+     <!-- This JavaScript File was used to make my navigation "buttons" clickable on mobile -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <!--css external stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./styles.css"> 
+
+     <!--google font -->
+     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Montserrat&amily=Black+Han+Sans&family=PT+Serif+One&display=swap" rel="stylesheet">  
+     
+     
+    <!--jquery -->
+     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body>
+    <!-- nav -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#leap_year">Leap Year</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#day_counter">D-Day Counter</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#lotto">Lotto 649</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#height">Height/Weight</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+    <!-- Grid for mathematical operation sections --> 
+      <div id="home" class="container-fluid pt-5">
+        <div class="row pl-5 pt-5 pb-5 d-flex justify-content-center">
+          <h1>Ledaloh Calculation Page</h1>
+        </div>
+      </div>
+
+
+
+    <!-- question 1 -->
+    <section>
+      <div id="leap_year" class="title container-fluid p-4 mb-2 col-9 d-flex justify-content-center">
+        <div class="row">
+            <div class="col pl-5 pt-5 pb-5 text-white box">
+              
+              <h3 class="text-warning d-flex justify-content-center">Leap Year Checker</h3>
+              <br/>
+            
+                <form>
+                  <p class="info">The leap year checker, checks if any given year is a leap year or not</p>
+                  <p class="text-justify instructions">Instructions:</p>
+                  <ul class="text-justify instructions">
+                    <li>Enter the year you would like to check in the text box below</li>
+                    <li>Numbers can only be 4 digits</li>
+                    <li>Numbers should be written in this format: YYYY e.g (2021)</li>
+                    <li>Click on the "check" button to display the output in the browser window</li>
+                  </ul>
+                  <br>
+                  <input type="text" placeholder="Enter a year? (YYYY)" class="text-box1">
+                  <button type ="submit" class="button1">Check</button>
+                  </input>
+              </form>
+            </div>
+        </div>
+    </div>  
+  </section>
+
+
+  <!-- question 2 -->
+  <section>
+    <div id="day_counter" class="title container-fluid p-4 mb-2 col-9 d-flex justify-content-center">
+      <div class="row">
+          <div class="col pl-5 pt-5 pb-5 text-white box">
+            
+            <h3 class="text-warning d-flex justify-content-center">D-day Counter</h3>
+            <br/>
+          
+              <form>
+                <p class="info">The D-day counter, displays how many days are left between today and a given date</p>
+                <p class="text-justify instructions">Instructions:</p>
+                </p>
+                <ul class="text-justify instructions">
+                  <li>Enter the day you would like to check in the text box below</li>
+                  <li>Date should be written in this format: YYYY-MM-DD e.g (2021-07-01)</li>
+                  <li>Date is checked from today (previous days are not allowed)</li>
+                  <li>Click on the "check" button to display the output in the browser window</li>
+                </ul>
+
+                <br>
+                <input type="text" placeholder="Enter a date? (YYYY-MM-DD)" class="text-box2">
+                <button type ="submit" class="button2">Check</button>
+                </input>
+            </form>
+          </div>
+      </div>
+  </div>  
+</section>
+
+    
+  <!-- question 3 -->
+  <section>
+    <div id="lotto" class="title container-fluid p-4 mb-2 col-9 d-flex justify-content-center">
+      <div class="row">
+          <div class="col pl-5 pt-5 pb-5 text-white box">
+            
+            <h3 class="text-warning d-flex justify-content-center">Lotto 649 Number Generator</h3>
+            <br/>
+          
+              <form>
+                <p class="info">The lotto 649 generator, generates six random numbers between 1-49 in ascending order</p>
+                <p class="text-center lotto-text">
+                  Click the "generate" buton below to see your lotto numbers
+                </p>
+                <br>
+                <button type ="submit" class="button3">Generate</button>
+                </input>
+            </form>
+          </div>
+      </div>
+  </div>  
+</section>
+
+
+  <!-- question 4 -->
+  <section>
+    <div id="height" class="title container-fluid p-4 mb-2 col-9 d-flex justify-content-center">
+      <div class="row">
+          <div class="col pl-5 pt-5 pb-5 text-white box">
+            
+            <h3 class="text-warning justify-content-center">Height/Weight Checker</h3>
+            <br/>
+          
+              <form>
+                <p class="info">The height or weight checker converts a user's height from cm to feet and inches and also converts weight from kg to pounds</p>
+                <p class="d-flex text-justify instructions">Instructions:</p>
+                <ul class="text-justify instructions">
+                  <li>To know your height (in ft and inches), enter your height (in cm) in the height box e.g (174)</li>
+                  <li>To know your height (in cm), enter your height in the weight box e.g (80)</li>
+                  <li>The "check" button will display either your height and weight in the browser window</li>
+                </ul>
+
+                <div class="d-flex justify-content-center">
+                  <input type="text" placeholder="Enter your height (in cm)" class="text-box4a">
+                  <button type ="submit" class="button4a">Check</button>
+                </div>
+                <br>
+                <div class="d-flex justify-content-center">
+                  <input type="text" placeholder="Enter your weight (in kg)" class="text-box4b">
+                  <button type ="submit" class="button4b">Check</button>
+                </div>
+            </form>
+          </div>
+      </div>
+  </div>  
+  </section> 
+
+  <!-- Footer -->
+    <div class="container mt-5 pt-5 text-warning">
+      <footer>
+          <div id = "footer" class="text-center">
+              © 2021 Copyright:
+              <a class="text-reset fw-bold" href="#">Designed by Wemi Ibidun</a>
+        </div>
+    </footer>
+  </div>
+</body>
+
+<!--js external stylesheet -->
+<script src="script.js"></script>
+</html>
