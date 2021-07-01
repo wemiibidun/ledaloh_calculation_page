@@ -52,6 +52,11 @@ ul.instructions{
   background-color: #008891;
 }
 
+.output{
+  font-weight: bold;
+  font-size: x-large;
+}
+
 /* buttons 1-4 */
 .button1, .button2,.button4a, .button4b {
   height: 40px;

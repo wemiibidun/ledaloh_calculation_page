@@ -7,7 +7,8 @@ $(document).ready(function () {
         let input = $(".text-box1").val(); //grab the value of the text box
 
         if (input === ""){
-            alert('Oops!!! Input cannot be left blank');
+            $("#leapYearOutput").html('Oops!!! Input cannot be left blank');
+            
             return false;
         }
         else{
@@ -22,16 +23,20 @@ $(document).ready(function () {
         if (year.length === 4){
             //conditions for leap year
             if ((year % 4 === 0) && (year % 100 !== 0) || (year % 400 === 0)) {
-                alert(year + " is a leap year"); //output will be displayed in browser window
+                
+                $("#leapYearOutput").html(year + " is a leap year");
             } else {
-                alert(year + " is not a leap year");
+                $("#leapYearOutput").html(year + " is not a leap year");
+                
                 $(".text-box1").val("") //this resets the text box
-                return false;
+                
             }
         }
         else {
-            alert("Oops!!! Invalid number. Number has to be only 4 digits")
-            return false;
+            $("#leapYearOutput").html('Oops!!! Invalid number. Number has to be only 4 digits');
+            $(".text-box1").val("") //this resets the text box
+
+            
         }  
     }
 
@@ -41,13 +46,15 @@ $(document).ready(function () {
         let givenDate = $(".text-box2").val(); //grab the value of the text box
         
         if(givenDate === ""){
-            alert('Oops!!! Input cannot be left blank');
+            $("#dayCounterOutput").html('Oops!!! Input cannot be left blank');
             return false;
+            
         }
         else{
             date_diff_indays(givenDate);
             $(".text-box2").val("") //this resets the text box
             return false;
+            
         }   
     });
    
@@ -70,14 +77,12 @@ $(document).ready(function () {
         
 
         if (dayCounter > 0) {
-            //return dayCounter; show days left in window console
-            alert(dayCounter + " day(s) left");
+            $("#dayCounterOutput").html(dayCounter + " day(s) left");
+            
         }
         else{
-            //return dayCounter; show days left in window console
-            alert(Math.abs(dayCounter) + " day(s) in the past" );
-        }
-        
+            $("#dayCounterOutput").html(Math.abs(dayCounter) + " day(s) in the past");
+        }  
     }
 
 
@@ -103,9 +108,7 @@ function generate() {
 //sorts array numbers from the lowest to the highest and add into new array
 numbers.sort(function(a,b) {return a-b;});
 
-//return lottery; show days left in window console
-alert(numbers.join(" ") + " are your lotto numbers");
-
+$("#lottoOutput").html(numbers.join(" "));
 return false;
 }
 
@@ -117,13 +120,15 @@ $(".button4a").click(function () {
     let userInput = $(".text-box4a").val(); //grab the value of the text box
 
     if (userInput === ""){
-        alert('Oops!!! Input cannot be left blank');
+        $("#heightWeightOutput").html('Oops!!! Input cannot be left blank');
         return false;
+        
     }
     else{
         cmtoFeetInches(userInput);
         $(".text-box4a").val("") //this resets the text box
         return false;
+        
     }
 });
 
@@ -133,8 +138,9 @@ $(".button4b").click(function () {
     let userInput = $(".text-box4b").val(); //grab the value of the text box
 
     if (userInput === ""){
-        alert('Oops!!! Input cannot be left blank');
+        $("#heightWeightOutput").html('Oops!!! Input cannot be left blank');
         return false;
+        
     }
     else{
         kgtoPounds(userInput);
@@ -149,13 +155,12 @@ $(".button4b").click(function () {
         let usersFeet =((userInput*0.393700) / 12); 
         //1 cm = 1/(2.54) = 0.393701 inch (cm to feet)
         //to convert inches to feet we need to divide the given value of length by 12.
+
         let feet = Math.floor(usersFeet);
         let inches = Math.round((usersFeet - feet) * 12); //ft to in
         userOutput = feet + " ft" + " and " + inches + " in";
-    
 
-        //return feet to inches; show output in window console
-        alert("Your height is: " + userOutput);
+        $("#heightWeightOutput").html("Your height is: " + userOutput);
   }
 
 
@@ -163,10 +168,8 @@ $(".button4b").click(function () {
         let usersWeight = userInput * 2.20462; //convert kg to lb
         let pounds = Math.floor(Math.round((usersWeight)));
         usersWeight = pounds + " lb";
-        
 
-        //return feet to inches; show output in window console
-        alert("Your weight is: " + usersWeight);
+        $("#heightWeightOutput").html("Your weight is: " + usersWeight);
   }
 
 });
