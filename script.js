@@ -8,12 +8,11 @@ $(document).ready(function () {
 
         if (input === ""){
             $("#leapYearOutput").html('Oops!!! Input cannot be left blank');
-            
-            
+            return false; 
         }
         else{
             leapYear(input);
-           
+            return false;
         }
         
     });
