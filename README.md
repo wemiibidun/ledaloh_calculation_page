@@ -17,7 +17,7 @@ The aim of this project was to be able to solve questions and add functionalitie
 
 
 ## Screenshot
-![Sample image](https://github.com/wemiibidun/pricing_widget_project/blob/master/price_widget_screenshot.png)
+![Sample image](https://github.com/wemiibidun/ledaloh_calculation_page/blob/main/screenshot_image.png)
 
 
 
