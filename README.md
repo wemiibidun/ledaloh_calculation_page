@@ -1,28 +1,34 @@
-# ledaloh_calculation_page
-## Hi & Welcome! 👋
+![GitLab Code Size](https://img.shields.io/github/languages/code-size/wemiibidun/ledaloh_calculation_page)
+![GitLab Status](https://flat.badgen.net/github/status/micromatch/micromatch)
 
+## Hi & Welcome! 👋
 This is a ledaloh calculations project that I created with HTML, styled with CSS & added a couple of functionalities with Javascript
 
-**Aim**
+## Table of contents
+* [Project Aim](#project-aim)
+* [Screenshot](#screenshot)
+* [Link to Deployed Project](#link-to-deployed-project)
+* [Status](#status)
+* [Contact](#contact)
 
+
+## Project Aim
 The aim of this project was to be able to solve questions and add functionalities to a webpage with the use of Javascript
 
 
-**What I learnt**
-
-In this project, I learnt more about HTML 5, CSS3, bootstrap & JQuery
-
-
-**My Take Home**
-Javascript allows you to make your web pages interactive while HTML and CSS are languages that give structure and style to your web pages.
-
-Direct link to this Github project:
-
-[ledaloh_calculation_webpage](https://wemiibidun.github.io/ledaloh_calculation_page/)
+## Screenshot
+![Sample image](https://github.com/wemiibidun/pricing_widget_project/blob/master/price_widget_screenshot.png)
 
 
-**Feedback**
 
-Feedback is always welcome. If you have any to give, please email me via wemiibidun@gmail.com
+## Link to Deployed Project
+[Ledaloh Calculation_Webpage](https://wemiibidun.github.io/ledaloh_calculation_page)
 
-**Cheers!!!** 😊
+
+## Status
+Project is: _Complete_
+
+
+## Contact
+Created by [@wemiibidun](https://twitter.com/wemiibidun/). Feel free to contact me via wemiibidun@gmail.com
+
