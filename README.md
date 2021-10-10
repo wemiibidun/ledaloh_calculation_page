@@ -22,7 +22,7 @@ The aim of this project was to be able to solve questions and add functionalitie
 
 
 ## Link to Deployed Project
-[Ledaloh Calculation_Webpage](https://wemiibidun.github.io/ledaloh_calculation_page)
+[Ledaloh Calculation Webpage](https://wemiibidun.github.io/ledaloh_calculation_page)
 
 
 ## Status
