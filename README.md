@@ -1,7 +1,7 @@
 ![GitLab Code Size](https://img.shields.io/github/languages/code-size/wemiibidun/ledaloh_calculation_page)
 ![GitLab Languages](https://img.shields.io/github/languages/count/wemiibidun/ledaloh_calculation_page)
 
-## Hi & Welcome! 👋
+## Ledaloh Calculaton Webpage
 This is a calculations webpage project that I created with HTML, styled with CSS & added a couple of functionalities with Javascript
 
 ## Table of contents
