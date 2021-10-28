@@ -7,6 +7,7 @@ This is a calculations webpage project that I created with HTML, styled with CSS
 ## Table of contents
 * [Project Aim](#project-aim)
 * [Screenshot](#screenshot)
+* [Technologies](#technologies-language-library-and-framework)
 * [Link to Deployed Project](#link-to-deployed-project)
 * [Status](#status)
 * [Contact](#contact)
@@ -19,6 +20,11 @@ The aim of this project was to be able to solve questions and add functionalitie
 ## Screenshot
 ![Sample image](https://github.com/wemiibidun/ledaloh_calculation_page/blob/main/screenshot_image.png)
 
+
+## Technologies (Language, Library and Framework)
+* HTML
+* CSS
+* Javascript (JQuery)
 
 
 ## Link to Deployed Project
