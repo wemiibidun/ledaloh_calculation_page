@@ -1,5 +1,5 @@
 ![GitLab Code Size](https://img.shields.io/github/languages/code-size/wemiibidun/ledaloh_calculation_page)
-![GitLab Status](https://flat.badgen.net/github/status/micromatch/micromatch)
+![GitLab Languages](https://img.shields.io/github/languages/count/wemiibidun/ledaloh_calculation_page)
 
 ## Hi & Welcome! 👋
 This is a calculations webpage project that I created with HTML, styled with CSS & added a couple of functionalities with Javascript
