@@ -2,7 +2,7 @@
 ![GitLab Languages](https://img.shields.io/github/languages/count/wemiibidun/ledaloh_calculation_page)
 
 ## Ledaloh Calculaton Webpage
-This is a calculations webpage project that I created with HTML, styled with CSS & added a couple of functionalities with Javascript
+This is a calculations webpage project that I created with HTML, styled with CSS & added a couple of functionalities with Javascript.
 
 ## Table of contents
 * [Project Aim](#project-aim)
